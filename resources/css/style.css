@@ -1,0 +1,140 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+}
+
+body {
+  line-height: 1.4rem;
+}
+
+.box {
+  max-width: 960px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png') no-repeat center center ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+nav {
+  padding: 1rem 0;
+  color: white;ù
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+ul li {
+  padding: 0 1rem;
+  display: inline;
+
+}
+
+.collapsed-menu {
+  display: none;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.banner {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+
+
+footer {
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
